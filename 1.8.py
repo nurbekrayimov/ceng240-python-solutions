@@ -1,0 +1,12 @@
+l1=float(input())
+s1=float(input())
+l2=float(input())
+s2=float(input())
+l3=float(input())
+s3=float(input())
+l4=float(input())
+s4=float(input())
+l=float(input())
+total=l1*s1+l2*s2+l3*s3+l4*s4
+laps=total/l
+print("{:.1f}".format(laps))
